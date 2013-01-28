@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link href="/common/default.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+
+    .box {
+      border: 1px solid #000000;
+      color: #000000;
+      padding: 0px;
+      position: absolute;
+      border-radius: 60px 60px 60px 60px;
+      cursor: crosshair;
+      height: 10px;
+      width: 10px;
+      z-index: 4;"
+
+    }
+
+    .black {
+      background-color: gray;
+
+    }
+
+    .white {
+      background-color: white;
+    }
+
+    .content {
+      padding: 1em;
+    }
+
+    #blackCircles {
+        border: 1px solid black;
+        width: 400px;
+        height: 200px;
+            box-shadow: 0 0 3px gray;
+    }
+    </style>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script>
+    // Create black circles
+    var blackCircles;
+    var whiteCircles;
+
+    function Loaded(){
+        blackCircles = document.getElementById("blackCircles");
+        blackCircles.innerHTML = "";
+        CreateBlackCircles();
+        CreateWhiteCircles();
+    }
+
+    function CreateBlackCircles(){
+
+        var x = 10, y = 10;
+        for(var i = 0; i<9; i++){
+            x = 10 + Math.floor(Math.random()*100);
+            y = 10 + Math.floor(Math.random()*100);
+            blackCircles.innerHTML += "<div style=\"left: " + x + "px; top: " + y + "px;\" class=\"box content black\" onmousedown=\"dragStart(event)\"></div>";
+        }
+    }
+
+    function CreateWhiteCircles(){
+        var x = 10, y = 10;
+        for(var i = 0; i<9; i++){
+            x = 120 + Math.floor(Math.random()*100);
+            y = 10 + Math.floor(Math.random()*100);
+            blackCircles.innerHTML += "<div style=\"left: " + x + "px; top: " + y + "px;\" class=\"box content white\" onmousedown=\"dragStart(event)\"></div>";
+        }
+    }
+
+    </script>
+    </head>
+
+    <body onload="Loaded()">
+        <div id="blackCircles"></div>
+        <img src="http://elvis.rowan.edu/~nlt/NumBoard.gif"/>
+        <button onclick="Loaded()">Restart</button>
+    </body>
+</html>
+

@@ -1,0 +1,61 @@
+{
+    "appId": "00000000000000000000000000000109",
+    "name": "Online Mill",
+    "routes": {
+        "/": "layout"
+    },
+    "domains": [
+        "ionicabizau.mono.ch",
+        "ionicabizau.jillix.net"
+    ],
+    "publicDir": "public",
+    "publicUser": 0,
+    "users": [
+        {
+            "id": 0,
+            "username": "",
+            "password": "",
+            "roles": [0]
+        }
+    ],
+    "roles": [
+        {
+            "id": 0,
+            "name": "Public Role"
+        }
+    ],
+    "miids": {
+        "layout": {
+            "module": "github/adioo/layout/v0.0.4",
+            "roles": [0],
+            "config": {
+                "html": {
+                    "type": "a",
+                    "path": "html/layout"
+                },
+                "css": ["bootstrap/css/bootstrap.css"],
+                "title": "Online Mill",
+                "modules": {
+                    "container": "container"
+                }
+            }
+        },
+        "container": {
+            "module": "github/IonicaBizau/online-mill/dev",
+            "roles": [0],
+            "config": {
+                "html": {
+                    "type": "a",
+                    "path": "html/mill"
+                },
+                "css": ["css/style.css"]
+            },
+            "operations": {
+                "updateMargins": {
+                    "roles": [0],
+                    "params": ["xy"]
+                }
+            }
+        }
+    }
+}
