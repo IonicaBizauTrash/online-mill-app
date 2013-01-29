@@ -41,7 +41,7 @@
             }
         },
         "container": {
-            "module": "github/IonicaBizau/online-mill/dev",
+            "module": "github/IonicaBizau/online-mill-module/dev",
             "roles": [0],
             "config": {
                 "html": {
@@ -51,7 +51,7 @@
                 "css": ["css/style.css"]
             },
             "operations": {
-                "updateMargins": {
+                "update": {
                     "roles": [0],
                     "params": ["xy"]
                 }
