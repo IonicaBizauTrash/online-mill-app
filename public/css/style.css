@@ -22,10 +22,20 @@
     padding: 1em;
 }
 
-#blackCircles {
+#pieces {
     border: 1px solid black;
     width: 400px;
     height: 200px;
     box-shadow: 0 0 3px gray;
+    margin: 0 0 10px 10px;
+}
+
+#mill {
+    box-shadow: 0 0 3px gray;
+    height: auto;
+    width: 400px;
+    margin: 0 0 10px 10px;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
