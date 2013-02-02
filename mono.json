@@ -5,7 +5,6 @@
         "/": "layout"
     },
     "domains": [
-        "ionicabizau.jillix.net",
 	"ionicabizau.mono.ch"
     ],
     "publicDir": "public",
