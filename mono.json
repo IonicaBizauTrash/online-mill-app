@@ -1,12 +1,12 @@
 {
-    "appId": "00000000000000000000000000000109",
+    "appId": "00000000000000000000000000000103",
     "name": "Online Mill",
     "routes": {
         "/": "layout"
     },
     "domains": [
-        "ionicabizau.mono.ch",
-        "ionicabizau.jillix.net"
+        "ionicabizau.jillix.net",
+	"ionicabizau.mono.ch"
     ],
     "publicDir": "public",
     "publicUser": 0,
@@ -41,7 +41,7 @@
             }
         },
         "container": {
-            "module": "github/IonicaBizau/online-mill-module/dev",
+            "module": "github/IonicaBizau/online-mill-module/v0.0.1",
             "roles": [0],
             "config": {
                 "html": {
