@@ -40,7 +40,7 @@
             }
         },
         "container": {
-            "module": "github/IonicaBizau/online-mill-module/v0.0.1",
+            "module": "github/IonicaBizau/online-mill-module/dev",
             "roles": [0],
             "config": {
                 "html": {
