@@ -57,7 +57,15 @@
                 "setPositions": {
                     "roles": [0],
                     "params": ["object"]
-                }
+                },
+                "getPositions": {
+                    "roles": [0],
+                    "params": []
+                },
+                "resetGame": {
+                    "roles": [0],
+                    "params": ["password"]
+                },
             }
         }
     }
