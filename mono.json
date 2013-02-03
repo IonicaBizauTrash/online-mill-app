@@ -65,7 +65,7 @@
                 "resetGame": {
                     "roles": [0],
                     "params": ["password"]
-                },
+                }
             }
         }
     }
