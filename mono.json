@@ -5,7 +5,7 @@
         "/": "layout"
     },
     "domains": [
-	    "ionicabizau.mono.ch"
+	    "ionicabizau.jillix.net"
     ],
     "publicDir": "public",
     "publicUser": 0,
@@ -40,7 +40,7 @@
             }
         },
         "container": {
-            "module": "github/IonicaBizau/online-mill-module/dev",
+            "module": "github/IonicaBizau/online-mill-module/v0.0.4",
             "roles": [0],
             "config": {
                 "html": {
