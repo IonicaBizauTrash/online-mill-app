@@ -1,11 +1,16 @@
 {
     "appId": "00000000000000000000000000000103",
     "name": "Online Mill",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IonicaBizau/online-mill-app.git"
+    },
     "routes": {
         "/": "layout"
     },
     "domains": [
-	    "ionicabizau.jillix.net"
+	    "ionicabizau.mono.ch"
     ],
     "publicDir": "public",
     "publicUser": 0,
