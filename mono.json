@@ -10,18 +10,11 @@
         "/": "layout"
     },
     "domains": [
-	    "ionicabizau.mono.ch"
+	    "ionicabizau.mono.ch",
+	    "ionicabizau.jillix.net"
     ],
     "publicDir": "public",
-    "publicUser": 0,
-    "users": [
-        {
-            "id": 0,
-            "username": "",
-            "password": "",
-            "roles": [0]
-        }
-    ],
+    "publicRole": "0",
     "roles": [
         {
             "id": 0,
