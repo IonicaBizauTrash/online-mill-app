@@ -26,10 +26,7 @@
             "module": "github/adioo/layout/v0.0.4",
             "roles": [0],
             "config": {
-                "html": {
-                    "type": "a",
-                    "path": "html/layout"
-                },
+                "html": "html/layout.html",
                 "css": ["bootstrap/css/bootstrap.css"],
                 "title": "Online Mill",
                 "modules": {
@@ -41,20 +38,17 @@
             "module": "github/IonicaBizau/online-mill-module/v0.0.4",
             "roles": [0],
             "config": {
-                "html": {
-                    "type": "a",
-                    "path": "html/mill"
-                },
+                "html": "html/mill.html",
                 "css": ["css/style.css"]
             },
             "operations": {
                 "update": {
                     "roles": [0],
-                    "params": ["xy"]
+                    "params": []
                 },
                 "setPositions": {
                     "roles": [0],
-                    "params": ["object"]
+                    "params": []
                 },
                 "getPositions": {
                     "roles": [0],
@@ -62,7 +56,7 @@
                 },
                 "resetGame": {
                     "roles": [0],
-                    "params": ["password"]
+                    "params": []
                 }
             }
         }
